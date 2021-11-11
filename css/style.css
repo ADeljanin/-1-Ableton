@@ -464,11 +464,12 @@ footer h1 {
     justify-content: flex-start;
     gap: 0;
   }
-  
+
   .main-img h1 {
     font-size: 10rem;
   }
-  
+}
+
 @media only screen and (max-width: 900px) {
   .last-paragraph h2 {
     font-size: 1.5rem;
