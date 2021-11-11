@@ -23,21 +23,25 @@
         <div class="first-nav-part">
           <ul class="main-nav">
             <li class="link-list-item"><a href="#"><img src="./img/ableton-hallmark.ef5355379032.svg" width="60px" height="28px"/></a></li>
-            <li class="link-list-item"><a href="#">Live</a></li>
-            <li class="link-list-item"><a href="#">Push</a></li>
-            <li class="link-list-item"><a href="#">Link</a></li>
-            <li class="link-list-item"><a href="#">Shop</a></li>
-            <li class="link-list-item"><a href="#">Help</a></li>
-            <li class="link-list-item more"><a href="#" class="about">More &#43</a></li>
+            <li class="link-list-item hidden"><a href="#">Live</a></li>
+            <li class="link-list-item hidden"><a href="#">Push</a></li>
+            <li class="link-list-item hidden"><a href="#">Link</a></li>
+            <li class="link-list-item hidden"><a href="#">Shop</a></li>
+            <li class="link-list-item hidden"><a href="#">Help</a></li>
+            <li class="link-list-item hidden more"><a href="#" class="about">More &#43</a></li>
           </ul>
           <ul class="side-nav">
             <li class="link-list-item">
-              <a href="#" class="try-live">Try Live for free</a>
+              <a href="#" class="try-live hidden">Try Live for free</a>
             </li>
-            <li class="link-list-item log-in">
+            <li class="link-list-item hidden log-in">
               <a href="#">Log in or register</a>
             </li>
           </ul>
+          <a class="link-media"href="#">Menu<svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
+            </svg></a>
+          
         </div>
         <ul class="second-nav-part">
           <li class="link-list-item"><a href="#" class="about">About</a></li>
@@ -45,11 +49,11 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <div>
       <div class="main-img">
         <h1>Ableton</h1>
       </div>
-      <div class="first-text">
+      <div class="paragraph">
         <h2>
           We make <a href="#" class="inner-link">Live</a>,
           <a href="#" class="inner-link">Push</a> and
@@ -71,7 +75,7 @@
         <!-- <div class="second-image"></div> -->
         <!-- <div class="third-image"></div> -->
       </div>
-      <div class="second-text">
+      <div class="paragraph">
         <h2>
           Making music isn’t easy. It takes time, effort, and learning. But when
           you’re in the flow, it’s incredibly rewarding.
@@ -92,7 +96,7 @@
         ></iframe>
         <p class="youtube-title">Why Ableton - Juanpe Bolivar</p>
       </div>
-      <div class="third-text">
+      <div class="paragraph">
         <h2>
           We are more than 350 people from 30 different countries divided
           between our headquarters in Berlin and our offices in Los Angeles and
@@ -108,21 +112,13 @@
           culture.
         </p>
       </div>
-      <div class="image-container">
-        <div class="solid-color"></div>
-        <div class="two-images-container">
-          <div class="image-1">
-            <img src="./img/ableton-board.jpg" alt="writing-on-board" />
-          </div>
-          <div class="image-2">
-            <img src="./img/ableton-totem.jpg" alt="ableton-totem" />
-          </div>
+        <div class="solid-color">
+          <img class="ableton-board" src="./img/ableton-board.jpg" alt="writing-on-board" />
+          <img class="ableton-studio" src="./img/ableton-studio.jpg" alt="studio" />
+          <img class="ableton-totem" src="./img/ableton-totem.jpg" alt="ableton-totem" />
+          
         </div>
-        <div class="image-3">
-          <img src="./img/ableton-studio.jpg" alt="studio" />
-        </div>
-      </div>
-      <div class="fourth-text">
+        <div class="paragraph">
         <h2>
           We believe it takes focus to create truly outstanding instruments. We
           only work on a few products and we strive to make them great.
@@ -143,7 +139,7 @@
           alt="screen-monitor"
         />
       </div>
-      <div class="fifth-text">
+      <div class="paragraph">
         <h2>
           We’re passionate about what we do, but we’re equally passionate about
           improving who we are.
@@ -159,18 +155,13 @@
           practices.
         </p>
       </div>
-      <div>
-        <div class="image-container">
-          <div class="solid-color-1"></div>
-          <div class="image-office">
-            <img src="./img/ableton-office.jpg" alt="office" />
-          </div>
-          <div class="image-meeting">
-            <img src="./img/ableton-meeting.jpg" alt="studio" />
-          </div>
+         <div class="second-image-container">     
+            <div class="last-two-images">
+              <img class="ableton-office" src="./img/ableton-office.jpg" alt="office" />
+              <img class="ableton-meeting" src="./img/ableton-meeting.jpg" alt="conference room" />
+            </div>
         </div>
-      </div>
-      <div class="sixth-text">
+      <div class="paragraph">
         <h2>
           We want our employees to love it here. Since we’re looking for
           exceptional talent from around the world, we will do everything we can
@@ -186,41 +177,29 @@
           variety of fun, informal small-group activities.
         </p>
       </div>
-      <div class="flex-container">
-        <div class="flex-child break-room">
-          <img
-            src="./img/ableton-break.jpg"
-            alt="break-room"
-            class="ableton-break"
-          />
-        </div>
-        <div class="text-wrapper">
-          <div class="flex-child seventh-text">
-            <h2 class="text-join">
-              We’re really proud of the work we’ve done so far. But there’s so
-              much more to come. If you’d like to be a part of it, please join
-              us.
-              <h2 class="text-join">
-                <a class="latest-jobs end-arrow" href="#">See latest jobs</a>
-              </h2>
-            </h2>
-          </div>
+
+      <div class="join-in">
+        <img class="break-room" src="./img/ableton-break.jpg" alt="break room">
+        <div class="last-paragraph">
+          <h2>We’re really proud of the work we’ve done so far. But there’s so
+            much more to come. If you’d like to be a part of it, please join
+            us.</h2>
+          <p><a class="latest-jobs end-arrow" href="#">See latest jobs</a></p>
         </div>
       </div>
     </main>
     <footer>
       <div>
-        <!--ceo footer-->
+        <!--------------WHOLE FOOTER-------------------->
         <div>
-          <!-- prvi red -->
+          <!-- first row -->
           <h1>Ableton</h1>
         </div>
       </div>
-      <!-- <div class="first-flex-container"> -->
-      <!--drugi red-->
+      <!--second row-->
       <div class="grid-container">
         <div class="abc">
-          <!--drugi red - prva kolona-->
+          <!--second row - first column-->
           <ul>
             <li class="end-arrow"><a href="#">Register Live or Push</a></li>
             <li class="end-arrow"><a href="#">About Ableton</a></li>
@@ -236,7 +215,7 @@
           </div>
         </div>
         <div class="def">
-          <!--drugi red - druga kolona-->
+          <!--second row - second column-->
 
           <p class="strong-text">Education</p>
           <ul>
@@ -246,7 +225,7 @@
           </ul>
         </div>
         <div class="ghi">
-          <!--drugi red - treca kolona-->
+          <!-- second-row - third column-->
           <p class="strong-text">Sign up for our newsletter</p>
           <p>
             Enter your email address to stay up to date with the latest offers,
@@ -264,9 +243,9 @@
         </div>
         <!-- </div> -->
         <!-- <div class="second-flex-container"> -->
-        <!--treci red-->
+        <!--third row -->
         <div>
-          <!--treci red - prva kolona-->
+          <!--third row - first colum-->
           <p class="strong-text">Community</p>
           <ul>
             <li class="end-arrow"><a href="#">Find Ableton User Groups</a></li>
@@ -275,7 +254,7 @@
           </ul>
         </div>
         <div>
-          <!--treci red - druga kolona-->
+          <!--third row - second column-->
           <p class="strong-text">Distributors</p>
           <ul>
             <li class="end-arrow"><a href="#">Find Distributors</a></li>
@@ -283,7 +262,7 @@
           </ul>
         </div>
         <div>
-          <!--treci red - treca kolona-->
+          <!--third row - third column-->
           <p class="strong-text">Language and location</p>
           <select name="language" id="language">
             <option value="en">English</option>
@@ -302,7 +281,7 @@
           </select>
         </div>
       </div>
-      <!-- </div> -->
+     
       <div class="third-flex-container">
         <div class="footer-nav">
           <a href="#">Contact us</a>
