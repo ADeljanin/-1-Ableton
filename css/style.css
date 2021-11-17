@@ -191,10 +191,10 @@ h2 {
 .second-text h2 {
   margin-bottom: 2.5rem;
 }
-.youtube-video {
+/* .youtube-video {
   width: 800px;
   height: auto;
-  padding-bottom: 36%; /* Change this till it fits the dimensions of your video */
+  padding-bottom: 36%; Change this till it fits the dimensions of your video
   position: relative;
   margin: 0 auto;
   margin-bottom: 3em;
@@ -207,6 +207,21 @@ iframe {
   display: block;
   top: 0;
   left: 0;
+} */
+.youtube-video {
+  position: relative;
+  width: 80%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
 }
 
 .youtube-title {
