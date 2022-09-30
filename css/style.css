@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   box-sizing: border-box;
 }
 
@@ -163,13 +163,13 @@ h2 {
 .join-in {
   /* outline: 1px solid black; */
   display: flex;
-  gap: 6em;
+  gap: 10%;
   align-items: center;
   position: relative;
   height: auto;
   width: 80%;
   margin: 0 auto;
-  padding: 5em 0;
+  padding: 10% 0;
 
   /* background-size: cover;
   width: 100%; */
@@ -248,8 +248,9 @@ iframe {
   );
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5em;
-  padding: 5em;
+  grid-column-gap: 10%;
+  grid-row-gap: 11.1%;
+  padding: 10%;
   margin-bottom: 8em;
 
   /* outline: 1px solid black; */
